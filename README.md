@@ -8,19 +8,19 @@ With your pair, decide who will play the role of Student 1 and Student 2!
 
 ## Setting up the Repository
 
-**Student 1**
+**Git Managaer**
 
 - Create a new repository on GitHub named "merge-test". Don't select
   the "Initialize this repository with a README" option on GitHub!
-- Add the other students as a collaborator to your repo by going to the Settings
+- Add the other emgineers as collaborators to your repo by going to the Settings
   tab then selecting "Collaborators & Teams" on the left.
 
-Once the repository is created on GitHub, follow these steps inside of your
-sandbox:
+Once the repository is created on GitHub, follow these steps on your
+local computer:
 
 1. `mkdir merge-test`
 2. `cd merge-test`
-3. `merge.py`
+3. `touch merge.py`
 4. `git init`
 5. `git add .`
 6. `git commit -m "initial commit"`
@@ -28,13 +28,13 @@ sandbox:
 8. `git push -u origin main`
 9. `code .`
 
-**Student 2**
+**Engineers**
 
-Once Student 1 has added you as a collaborator, you will receive and email to
-confirm you as a collaborator to the repo Student 1 created. Check your email
+Once the git manager has added you as a collaborator, you will receive and email to
+confirm you as a collaborator to the repo the git manager has created. Check your email
 (it could take a few minutes to come through) and click the confirmation link. Or approve it via the notification recieved in github.
 
-After Student 1 has pushed their code:
+After Git manager has pushed their code:
 
 1. `git clone <url>`
 2. `cd merge-test`
@@ -44,7 +44,10 @@ After Student 1 has pushed their code:
 
 **All Students**
 
-- Check out a new feature branch with git checkout -b somefeature (call it whatever you like) and create a new .py file with that same name. Within that file add a string variable. Also assign whatever string value that you want.
+- Check out a new feature branch with  
+```sh git checkout -b somefeature``` 
+
+ (call it whatever you like) and create a new .py file with that same name. Within that file add a string variable. Also assign whatever string value that you want.
 
 - Commit your changes and push them to the remote repo using this command
   `git push origin <branch name>`. 
