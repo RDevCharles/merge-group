@@ -45,7 +45,7 @@ After Git manager has pushed their code:
 **All Students**
 
 - Check out a new feature branch with  
-```sh git checkout -b somefeature``` 
+```git checkout -b somefeature``` 
 
  (call it whatever you like) and create a new .py file with that same name. Within that file add a string variable. Also assign whatever string value that you want.
 
