@@ -44,7 +44,7 @@ After Git manager has pushed their code:
 
 **All Students**
 
-- Check out a new feature branch with  ```git checkout -b somefeature``` (call it whatever you like) and create a new .py file with that same name. Within that file add a string variable. Also assign whatever string value that you want.
+- Check out a new feature branch with  ```git checkout -b somefeature``` (call it whatever you like) and edit the merge.py any way you like.
 
 - Commit your changes and push them to the remote repo using this command
   `git push origin <branch name>`. 
